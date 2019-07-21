@@ -42,7 +42,7 @@ class SynapsePM extends PluginBase {
 
         //$this->useLoadingScreen = (bool)$this->getConfig()->get('loadingScreen', true);
 
-        //$this->getServer()->getCommandMap()->register("stransfer", new TransferCommand());
+        $this->getServer()->getCommandMap()->register("stransfer", new TransferCommand());
     }
 
     public function onDisable() {
