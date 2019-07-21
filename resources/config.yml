@@ -1,0 +1,13 @@
+#Synapse API for PocketMine: config
+disable-rak: false
+enable: true
+
+entries:
+  - server-ip: 127.0.0.1
+    server-port: 10305
+    isMainServer: true
+    isLobbyServer: false
+    transferOnShutdown: true
+    password: "must16keyslength"
+    description: Synapse PocketMine Server
+    autoConnect: true
