@@ -1,0 +1,7 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/ImNotYour5G/SynapsePM
+branches:
+- master
+projects:
+  SynapsePM:
+    path: ""
+...
